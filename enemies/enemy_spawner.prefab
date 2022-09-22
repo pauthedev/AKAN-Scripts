@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6764337345748439644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6764337345748439643}
+  - component: {fileID: 6764337345748439642}
+  m_Layer: 0
+  m_Name: enemy_spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6764337345748439643
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6764337345748439644}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6764337345748439642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6764337345748439644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7522573e205e458489b876b845a9a3b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slimes:
+  - {fileID: 5132975035266655568, guid: 2feda0a30f959764ababfd3c439ba662, type: 3}
+  - {fileID: 5132975035266655568, guid: ca5ba4f700ac61942abb5b68577400e1, type: 3}
+  - {fileID: 5132975035266655568, guid: 809bcd7ff472b8341acb3f2db4249e26, type: 3}
+  flies:
+  - {fileID: 6016256709480328281, guid: aceadab777736ea45a6e6123a2e47b07, type: 3}
+  - {fileID: 229778147053606573, guid: 59a0ba9502367fd4284a27f44bc7402c, type: 3}
+  - {fileID: 9120964997774689515, guid: 2930c846f4ba4604497ff2c92099f37c, type: 3}
+  slimehp: 0
+  slimedamage: 0
+  flyhp: 0
+  flydamage: 0
+  enemies: 0
+  random: 0
+  r1: 0
+  r2: 0
+  element: 0
+  en_position: {x: 0, y: 0, z: 0}

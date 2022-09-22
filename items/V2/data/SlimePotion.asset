@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70240160dd98e3c4b8c92dd7e1279b68, type: 3}
+  m_Name: SlimePotion
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6004468002388460209, guid: dc8b534a3b0607f4687e2999cd211390, type: 3}
+  type: 0
+  itemName: Slime Potion
+  sprite: {fileID: 21300000, guid: c17b72ab22e3a614386c1ae6dcd7d883, type: 3}
+  description: 'HP +80
+
+
+    Press F to consume it.'
+  healpower: 80
