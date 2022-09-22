@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4348278c39fd3f4a965d764e901e22d, type: 3}
+  m_Name: Balam First
+  m_EditorClassIdentifier: 
+  conversationBlock:
+  - Oh, you're Kinich. You had a really good start huh?
+  - Thanks to you we could enter here and repair all my mother's old forge material.
+  - I'll be grateful to work for you, Sunkissed.

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db17352263e7b50439aeb11b4881817a, type: 3}
+  m_Name: Nish
+  m_EditorClassIdentifier: 
+  villagerName: Nish
+  villagerColor: {r: 0.25069442, g: 0.38263884, b: 0.475, a: 1}
+  villagerNameColor: {r: 0.34015664, g: 0.7741821, b: 0.7924528, a: 1}
+  dialogue: {fileID: 0}
